@@ -8,5 +8,9 @@ java -classpath external.jar com.mycompany.myClass
 # Or if not in any package
 java -cp .;json-java.jar Test (Windows)
 java -cp .:json-java.jar Test (Unix Systems)
+```
 
+# Create jar
+```sh
+jar cf jar-file-name.jar Test.class
 ```
