@@ -13,4 +13,6 @@ java -cp .:json-java.jar Test (Unix Systems)
 # Create jar
 ```sh
 jar cf jar-file-name.jar Test.class
+# To automatically update MANIFEST.MF with Main-Class: classname
+jar cfe jar-file-name.jar Test Test.class
 ```
