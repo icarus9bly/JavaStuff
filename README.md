@@ -23,4 +23,6 @@ Main-Class: Test
 Class-Path: json-20211205.jar
 
 EOF
+# Running jar
+java -jar jar-file-name.jar
 ```
