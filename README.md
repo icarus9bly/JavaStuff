@@ -21,5 +21,6 @@ java -cp json-20211205.jar:jar-file-name.jar Test
 cat << EOF > Manifest.txt
 Main-Class: Test
 Class-Path: json-20211205.jar
+
 EOF
 ```
